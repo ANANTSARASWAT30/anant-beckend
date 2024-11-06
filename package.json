@@ -2,14 +2,18 @@
   "name": "beckend-2.0",
   "version": "1.0.0",
   "description": "a beckend course",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "beckend",
     "javascript"
   ],
   "author": "Anant Saraswat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
